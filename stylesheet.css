@@ -1,0 +1,43 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+  background-size:cover;
+  background-repeat:no-repeat;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  text-align:center;
+  color:#2B0E0A;
+  opacity:0.8;
+  background-image:url('https://bjornsphoto.files.wordpress.com/2012/10/beo1102-2s.jpg');
+}
+
+#weather_container{
+  padding:3em;
+  background-color:#ADADAD;
+  border-radius:50px;
+  margin:3em;
+  display:none;
+}
+
+#location{
+  font-size:2em;
+}
+
+#temp{
+  font-size:4em;
+}
+
+#weather{
+  font-size:3em;
+}
+
+#myBtn, #myBtn2{
+  font-size: 30px;
+  width: 20%;
+  height: 50px;
+}
+
+button:hover{
+  background-color:#43d5d8;
+}
