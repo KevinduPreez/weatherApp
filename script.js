@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#weather_container').delay(7000).fadeIn('slow');
 
-alert("YES");
+//alert("YES");
 //Function to find the user location
 var coord = function() {
     //navigator uses geolocation to get users coordinates
